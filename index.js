@@ -10,6 +10,8 @@ const parentChildString = (string) => {
         const isWithChild = sortedArray[i] === sortedArray[j].toUpperCase();
         if (isWithChild) {
           finalArray.push(sortedArray[j]);
+          sortedArray.splice(j, 1);
+          j -= 1;
         }
       }
     }
