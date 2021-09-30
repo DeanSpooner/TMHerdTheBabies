@@ -1,0 +1,14 @@
+{
+  "name": "heardthebabies",
+  "version": "1.0.0",
+  "description": "Write a function which takes a string as its argument. The string will consist of several 'baby' (lowercase) letters, that belong to a 'parent' (uppercase) letter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Dean Spooner",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.2.4"
+  }
+}
