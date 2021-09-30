@@ -15,7 +15,10 @@ describe("Puts the parent first", () => {
   it("returns a string that has different letters with capitals followed by its lower-case, including multiple same capital letters", () => {
     const origString = "aBABA";
     const origStringABC = "bCCbaBcAcABaaBCC";
+    const origStringABCd = "bCCbaBcAcABaaBdCC";
+    const origStringABCdxz = "XbCCbzaBcAzcxABaaBdCzC";
     expect(parentChildString(origString)).toBe("AAaBB");
     expect(parentChildString(origStringABC)).toBe("AAaaaBBBbbCCCCcc");
+    expect(parentChildString(origStringABCd)).toBe("AAaaaBBBbbCCCCccd");
   });
 });

@@ -13,6 +13,8 @@ const parentChildString = (string) => {
           j -= 1;
         }
       }
+    } else {
+      finalArray.push(sortedArray[i]);
     }
   }
   return finalArray.join("");
