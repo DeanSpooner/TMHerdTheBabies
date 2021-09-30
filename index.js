@@ -1,5 +1,4 @@
 const parentChildString = (string) => {
-  //   return string.split("").reverse().join("");
   const sortedArray = string.split("").sort();
   let finalArray = [];
   for (let i = 0; i < sortedArray.length; i += 1) {
