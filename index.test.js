@@ -20,5 +20,6 @@ describe("Puts the parent first", () => {
     expect(parentChildString(origString)).toBe("AAaBB");
     expect(parentChildString(origStringABC)).toBe("AAaaaBBBbbCCCCcc");
     expect(parentChildString(origStringABCd)).toBe("AAaaaBBBbbCCCCccd");
+    expect(parentChildString(origStringABCdxz)).toBe("AAaaaBBBbbCCCCccd");
   });
 });
